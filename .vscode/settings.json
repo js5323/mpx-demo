@@ -1,0 +1,13 @@
+{
+  // 语言的文件关联
+  "files.associations": {
+    // [mpx支持](https://didi.github.io/mpx/single/what-is-single-file.html#vscode)
+    "*.mpx": "vue"
+  },
+  // 在保存到时候自动格式化代码（格式化方式依选择而定）
+  "editor.formatOnSave": true,
+  // 关闭一些vetur的报错
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false
+}
